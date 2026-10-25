@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Long Gong Scoring",
+    "slug": "long-gong-scoring",
+    "version": "1.2.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#111827"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thrasher.longgongscoring",
+      "buildNumber": "4"
+    },
+    "android": {
+      "package": "com.thrasher.longgongscoring",
+      "versionCode": 4,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#111827"
+      }
+    },
+    "plugins": [
+      [
+        "expo-file-system",
+        {
+          "supportsOpeningDocumentsInPlace": true,
+          "enableFileSharing": true
+        }
+      ],
+      "expo-sharing"
+    ]
+  }
+}
